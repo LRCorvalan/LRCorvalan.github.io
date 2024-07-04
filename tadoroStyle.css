@@ -10,6 +10,10 @@ div {
     background: red;
 }
 
+body {
+    background: #818FB4;
+}
+
 .red {
     height: 300px;
     background: #363062;
@@ -26,4 +30,12 @@ div {
     justify-content: space-between;
     align-items: center;
     padding: 0rem calc((100vw - 1300px) / 2);
+}
+
+h1 {
+    color: #F5E8C7;
+}
+
+h2 {
+    color: #F5E8C7;
 }

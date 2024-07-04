@@ -9,7 +9,7 @@
 nav {
   height: 80px;
   /* background: #fdcc04; */
-  background: red;
+  background: blue;
   display: flex;
   justify-content: space-between;
   align-items: center;

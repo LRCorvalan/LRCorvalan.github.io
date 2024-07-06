@@ -12,14 +12,16 @@ body {
 }
 
 .photo {
-  width: 200px;
+  max-width: 200px;
+  max-height: 200px;
 }
 
 h1 {
-  font-size: 60px;
+  /* font-size: 60px; */
+  font-size: clamp(40px, 60px, 65px);
 }
 
 h2 {
-  font-size: 30px;
+  font-size: clamp (2rem, 10vw, 3rem);
   color: gray;
 }

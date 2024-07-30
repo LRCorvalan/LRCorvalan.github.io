@@ -91,6 +91,15 @@
   }
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
@@ -537,8 +546,12 @@ progress {
 }
 
 .downloadApp {
-  max-width: 55%;
+  max-width: 30%;
   height: auto;
+}
+
+.curve {
+  border-radius: 10%;
 }
 
 .centerText {
